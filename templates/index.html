@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <meta charset="utf-8" />
+        <link rel="stylesheet", type="text/css", href="../static/upload_s3.css" />
+        <script src="../static/upload_s3.js" defer></script> 
+        <title>BackEnd practice</title>  
+    </head>
+    <body>
+        <nav>
+            <div id="navTitle" class="navTitle">發表一篇圖文</div>
+            <div id="connectBlock">
+                <div id="addContent" class="addContent">文字內容</div>
+                <input type="text" id="inputContent" placeholder="請輸入上傳圖片名稱">
+                <div id="connectAlarm" class="connectAlarm">請輸入內容</div>
+            </div>
+            <div id="uploadBlock">
+                <div id="addImgContent" class="addImgContent">圖片檔案</div>
+                <div id="imgChoose">選擇圖片</div>
+                <!-- <input type="file" id="file-uploader" data-target="file-uploader" accept="image/*" multiple="multiple"  style="display: none;"/> -->
+                <input type="file" id="file-uploader" style="display: none;">
+                <div id="imageAlarm" class="imageAlarm">請選擇圖片</div>
+            </div>
+            
+            <div id="submit" class="submit">送出</div>
+            <div id="titleSeparateLine" class="titleSeparateLine"></div>
+        </nav>
+        <main id="main">
+
+        </main>
+    </body>
+</html>

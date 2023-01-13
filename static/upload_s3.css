@@ -1,0 +1,66 @@
+body{
+    margin: 0; /* 不要留白 */
+    background-color: aliceblue;
+}
+
+nav .navTitle{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(147, 147, 147);
+    padding: 10px;
+}
+nav #connectBlock{
+    display: flex;
+    margin: 10px;
+}
+nav #connectBlock .inputContent{
+    display: flex;
+    padding: 0px 10px 0px 10px;
+}
+nav #connectBlock .connectAlarm,
+nav #uploadBlock .imageAlarm{
+    display:none;
+    color: red;
+    padding: 0px 10px 0px 10px;
+}
+nav #uploadBlock{
+    display: flex;
+    margin: 10px;
+}
+nav #uploadBlock #imgChoose{
+    display: flex;
+    background-color: rgb(164, 164, 164);
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav #submit{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width:38px;
+    /* box-sizing: border-box; */
+    background-color: rgb(176, 176, 176);
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+nav .titleSeparateLine,
+main .sparate{
+    justify-content:center;
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    height: 2px;
+    width: 100%;
+}
+main{
+    padding: 5px 20px 20px 20px;
+}
+main .connect{
+
+    padding: 10px;
+}
+main .image{
+    padding: 5px;
+    height: 100px;
+}
